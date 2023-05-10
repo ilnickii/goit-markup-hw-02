@@ -22,7 +22,7 @@ body {
 /* heder */
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -45,7 +45,7 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
 
 .address-link {
@@ -56,9 +56,13 @@ body {
   color: var(--primary-text-color);
 }
 
+.address {
+  font-style: normal;
+}
+
 .address-link:hover,
 .address-link:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
 
 /* Hero */
@@ -73,9 +77,11 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -89,14 +95,10 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: #404bbf;
 }
 
 /* About */
-
-.invisible-title {
-  display: none;
-}
 
 .about-item-title {
   font-weight: 500;
@@ -119,16 +121,13 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-text-color);
 }
 
 /* Team */
-
-.team {
-  background-color: #f4f4fd;
-}
 
 .team-name {
   font-weight: 500;
@@ -180,7 +179,7 @@ body {
 .gallery-nav-btn:hover,
 .gallery-nav-btn:focus {
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: #404bbf;
 }
 
 .gallery-title {
