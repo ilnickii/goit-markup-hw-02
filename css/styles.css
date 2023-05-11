@@ -129,6 +129,14 @@ body {
 
 /* Team */
 
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-item {
+  background-color: #ffffff;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -164,6 +172,7 @@ body {
 /* Gallery */
 
 .gallery-nav-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -172,7 +181,7 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--accent-color);
-  border-color: #f4f4fd;
+  background-color: #f4f4fd;
   cursor: pointer;
 }
 
